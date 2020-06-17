@@ -10,7 +10,7 @@ Elena Yermak
  
 Cel projektu: zaprezentowanie strony internetowej związaną z hobby – postcrossing, czyli galeria własnych pocztówek, forum dyskusyjny. 
 
-**Działanie aplikacji **
+**Działanie aplikacji**
 
 Zadania: 
 
