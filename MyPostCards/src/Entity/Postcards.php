@@ -2,46 +2,42 @@
 
 namespace App\Entity;
 
-use App\Repository\PostcardsRepository;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity(repositoryClass=PostcardsRepository::class)
+ * Postcards
+ *
+ * @ORM\Table(name="postcards")
+ * @ORM\Entity
  */
 class Postcards
 {
     /**
-     * @ORM\Id()
-     * @ORM\GeneratedValue()
-     * @ORM\Column(type="integer")
+     * @var int
+     *
+     * @ORM\Column(name="id", type="integer", nullable=false)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
      */
     private $id;
 
     /**
-     * @ORM\Column(type="string", length=255, nullable=true)
+     * @var string|null
+     *
+     * @ORM\Column(name="Image", type="text", length=0, nullable=true, options={"default"="NULL"})
      */
-    private $name;
+    private $image = 'NULL';
 
     /**
-     * @ORM\Column(type="string", length=255, nullable=true)
+     * @var string|null
+     *
+     * @ORM\Column(name="brochure_filename", type="string", length=255, nullable=true, options={"default"="NULL"})
      */
-    private $image;
+    private $brochureFilename = 'NULL';
 
     public function getId(): ?int
     {
         return $this->id;
-    }
-
-    public function getName(): ?string
-    {
-        return $this->name;
-    }
-
-    public function setName(?string $name): self
-    {
-        $this->name = $name;
-
-        return $this;
     }
 
     public function getImage(): ?string
@@ -55,4 +51,18 @@ class Postcards
 
         return $this;
     }
+
+    public function getBrochureFilename(): ?string
+    {
+        return $this->brochureFilename;
+    }
+
+    public function setBrochureFilename(?string $brochureFilename): self
+    {
+        $this->brochureFilename = $brochureFilename;
+
+        return $this;
+    }
+
+
 }
