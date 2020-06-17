@@ -1,9 +1,17 @@
 # Project-PHP-MVC
+## Aplikacja zaliczeniowa z przedmiotu "Serwisy internetowe PHP MVC"
 
 **Skład grupy:**
 
 Yahor Kazak  
 Elena Yermak 
+
+**Technologie:**
+Symfony 5, PhpStorm
+
+**Uruchomienie:**
+....
+
 
 **Plan projektu**
 
