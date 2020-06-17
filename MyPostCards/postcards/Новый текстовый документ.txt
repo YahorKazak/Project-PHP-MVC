@@ -1,0 +1,5 @@
+$entityManager = $this->getDoctrine()->getManager();
+        $image = new Postcards();
+        $image -> setImage(base64_encode($_GET('FileImage')));
+        $entityManager->persist($image);
+        $entityManager->flush();
