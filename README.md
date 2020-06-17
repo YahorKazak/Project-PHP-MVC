@@ -15,7 +15,7 @@ Symfony 5, PhpStorm
 
 **Plan projektu**
  
-*Cel projektu:* zaprezentowanie strony internetowej związaną z hobby – postcrossing, czyli galeria własnych pocztówek, forum dyskusyjny. 
+*Cel projektu:* zaprezentowanie strony internetowej związaną z hobby – kolekcjonowaniem pocztówek (postcrossing.com), czyli galeria własnych pocztówek. 
 
 **Plan zadań w rozbiciu na poszczególne warstwy**
 .. ? 
