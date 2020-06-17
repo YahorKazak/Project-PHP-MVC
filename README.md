@@ -1,16 +1,16 @@
 # Project-PHP-MVC
 
-Skład grupy: 
+**Skład grupy:**
 
 Yahor Kazak  
 Elena Yermak 
 
-Plan projektu 
+**Plan projektu**
 
  
 Cel projektu: zaprezentowanie strony internetowej związaną z hobby – postcrossing, czyli galeria własnych pocztówek, forum dyskusyjny. 
 
-Działanie aplikacji 
+**Działanie aplikacji **
 
 Zadania: 
 
