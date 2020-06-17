@@ -19,7 +19,7 @@ use App\Service\FileUploader;
 class DataBaseImage extends AbstractController
 {
     /**
-     * @Route("/image/new", name="app_product_new")
+     * @Route("/image/Russia", name="app_product_newR")
      * @param Request $request
      * @param SluggerInterface $slugger
      * @param FileUploader $fileUploader
