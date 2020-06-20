@@ -27,6 +27,7 @@ Symfony 5, PHP 7, MySQL, Bootstrap 4
     - kontroler dla wyświetlania
 
 **Plan bazy danych**
+
 W bazie danych *postcrossing_db* są stworzone tabele, w których przechowywane są zdjecia pocztówek z poszczególnych krajów.
 
 **Działanie aplikacji** 
