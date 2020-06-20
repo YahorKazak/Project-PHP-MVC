@@ -21,10 +21,11 @@ Symfony 5, PHP 7, MySQL, Bootstrap 4
 - stworzyć główną stronę w taki sposób, żeby wyświetlać i edytować album z pocztówkami 
 - stworzyć bazę danych i poszczególne tabele 
 - stworzyć klasę typu Entity dla każdej tabeli 
-- stworzyć stronę dla wyświetlania i dodawania pocztówek
+- stworzyć strony dla wyświetlania i dodawania pocztówek
 - dla wszystkich stron zrobić kontrolery
     - kontrolery dla wysłania danych (<Kraj>Controller.php)
     - kontrolery dla wyświetlania (LoadController<Kraj>.php)
+- stworzyć folder, gdzie będą przechowywane wszystkie obrazy
 
 **Plan bazy danych**
 
