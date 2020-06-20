@@ -1,25 +1,38 @@
 # Project-PHP-MVC
+### Aplikacja zaliczeniowa z przedmiotu "Serwisy internetowe PHP MVC"
 
-Skład grupy: 
+**Skład grupy:**
 
 Yahor Kazak  
 Elena Yermak 
 
-Plan projektu 
+**Technologie:**
+Symfony 5, PhpStorm
 
+**Uruchomienie:**
+....
+
+
+**Plan projektu**
  
-Cel projektu: zaprezentowanie strony internetowej związaną z hobby – postcrossing, czyli galeria własnych pocztówek, forum dyskusyjny. 
+*Cel projektu:* zaprezentowanie strony internetowej związaną z hobby – kolekcjonowaniem pocztówek (postcrossing.com), czyli galeria własnych pocztówek. 
 
-Działanie aplikacji 
+**Plan zadań w rozbiciu na poszczególne warstwy**
+.. ? 
 
-Zadania: 
+**Plan bazy danych**
+.. ? 
 
-Rejestrowanie i logowanie użytkownika.  
+**Działanie aplikacji**
 
-Możliwość dodawania swoich pocztówek do własnego profilu. 
+*Zadania:* 
 
-Udział w forum dyskusyjnym. 
+- Rejestrowanie i logowanie użytkownika.  
 
-Możliwość komentowania pocztówek i polubienia ich. 
+- Możliwość dodawania swoich pocztówek do własnego profilu. 
 
-W bazie danych będą zbierane dane do logowania i wprowadzone dane przy rejestracji oraz przesyłane pocztówki. 
+- Udział w forum dyskusyjnym. 
+
+- Możliwość komentowania pocztówek i polubienia ich. 
+
+- W bazie danych będą zbierane dane do logowania i wprowadzone dane przy rejestracji oraz przesyłane pocztówki. 
