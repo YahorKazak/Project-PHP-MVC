@@ -7,32 +7,23 @@ Yahor Kazak
 Elena Yermak 
 
 **Technologie:**
-Symfony 5, PhpStorm
+Symfony 5, PHP 7, MySQL, Bootstrap 4
 
 **Uruchomienie:**
-....
-
+- wpisać do terminalu ``` php bin/console server:run ```
+- główna strona znajduje się pod adresem: **127.0.0.1:8000/main/page**
 
 **Plan projektu**
  
 *Cel projektu:* zaprezentowanie strony internetowej związaną z hobby – kolekcjonowaniem pocztówek (postcrossing.com), czyli galeria własnych pocztówek. 
 
 **Plan zadań w rozbiciu na poszczególne warstwy**
-.. ? 
+
 
 **Plan bazy danych**
-.. ? 
+W bazie danych *postcrossing_db* są stworzone tabele, w których przechowywane są zdjecia pocztówek z poszczególnych krajów.
 
-**Działanie aplikacji**
+**Działanie aplikacji** 
+- Możliwość dodawania nowych pocztówek i przechowywania ich w bazie danych
+- Wyświetlanie pocztówek 
 
-*Zadania:* 
-
-- Rejestrowanie i logowanie użytkownika.  
-
-- Możliwość dodawania swoich pocztówek do własnego profilu. 
-
-- Udział w forum dyskusyjnym. 
-
-- Możliwość komentowania pocztówek i polubienia ich. 
-
-- W bazie danych będą zbierane dane do logowania i wprowadzone dane przy rejestracji oraz przesyłane pocztówki. 
