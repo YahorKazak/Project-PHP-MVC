@@ -22,7 +22,7 @@ Symfony 5, PHP 7, MySQL, Bootstrap 4
 - stworzyć bazę danych i poszczególne tabele 
 - stworzyć klasę typu Entity dla każdej tabeli 
 - stworzyć stronę dla wyświetlania i dodawania pocztówek
-- dla wszystkich stron zrobić kontrolery:
+- dla wszystkich stron zrobić kontrolery
     - kontroler dla wysłania danych
     - kontroler dla wyświetlania
 
