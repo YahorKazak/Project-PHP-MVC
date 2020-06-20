@@ -42,6 +42,7 @@ class GermanyController extends AbstractController
                 $postcard ->setImage($brochureFile);
                 $entityManager->persist($postcard);
                 $entityManager->flush();
+               //$post = $this->getDoctrine()->getRepository('Post')->find()
             }
 
             // ...
