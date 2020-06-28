@@ -1,5 +1,5 @@
 <?php
-
+# Yahor Kazak
 
 namespace App\Controller;
 
@@ -26,7 +26,7 @@ class DataBaseImage extends AbstractController
      * @return RedirectResponse|Response
      */
 
-    public function new(Request $request, SluggerInterface $slugger,FileUploader $fileUploader)
+    public function newRussiaPostcard(Request $request, SluggerInterface $slugger,FileUploader $fileUploader)
     {
         $postcard = new Postcards();
         $form = $this->createForm(ProductType::class, $postcard);

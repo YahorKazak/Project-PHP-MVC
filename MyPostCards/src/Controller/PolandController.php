@@ -1,5 +1,5 @@
 <?php
-
+# Yahor Kazak
 
 namespace App\Controller;
 
@@ -27,7 +27,7 @@ class PolandController extends AbstractController
      * @return RedirectResponse|Response
      */
 
-    public function new(Request $request, SluggerInterface $slugger,FileUploader $fileUploader)
+    public function newPolandPostcard(Request $request, SluggerInterface $slugger,FileUploader $fileUploader)
     {
         $postcard = new Poland();
         $form = $this->createForm(ProductType::class, $postcard);
