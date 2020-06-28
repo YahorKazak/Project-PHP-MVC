@@ -1,5 +1,5 @@
 <?php
-
+# Yahor Kazak
 
 namespace App\Controller;
 
@@ -27,7 +27,7 @@ class UkraineController extends AbstractController
      * @return RedirectResponse|Response
      */
 
-    public function new(Request $request, SluggerInterface $slugger,FileUploader $fileUploader)
+    public function newUkrainePostcard(Request $request, SluggerInterface $slugger,FileUploader $fileUploader)
     {
         $postcard = new Ukraine();
         $form = $this->createForm(ProductType::class, $postcard);
